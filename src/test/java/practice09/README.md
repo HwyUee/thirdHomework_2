@@ -1,7 +1,7 @@
 写一个Person类，要有id，name，age属性，靠id来判断是否是同一个人。要有一个introduce方法，
 introduce方法返回一个字符串形如：
 
->My name is Tom. I am 21 years old.
+>My name is Tom. I ‘am 21 years old.
 
 再写一个Student类继承Person类，除了id，name，age属性，还有要有Klass属性。也有一个introduce方法，
 introduce方法返回一个字符串形如：
