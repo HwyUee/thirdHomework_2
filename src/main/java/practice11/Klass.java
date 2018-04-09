@@ -32,24 +32,27 @@ public class Klass {
     }
 
     public void assignLeader(Student student) {
-        if (null != this.member && member.contains(student)) {
-            this.leader = student;
+        if (member==null){
+            member = new ArrayList<Student>();
         }
-        else {
-            System.out.print("It is not one of us.\n");
+        if (!member.contains(student)) {
+            System.out.print( "It is not one of us.\n");
+        }else{
+            this.leader = student;
+            System.out.print("I am Tom. I know "+student.getName()+" become Leader of "+getDisplayName()+".\n");
         }
     }
 
     public void appendMember(Student student) {
-        member=new ArrayList<Student>();
+        if (member == null) {
+            member = new ArrayList<Student>();
+        }
         member.add(student);
-        Klass class1 = student.getKlass();
-        //class1.get
-
-        System.out.print("I am Tom. I know "+student+" become Leader of "+getDisplayName()+".\n");
+        System.out.print("I am Tom. I know "+student.getName()+" has joined "+getDisplayName()+".\n");
 
     }
-    public boolean isIn(Student student){
+
+    public boolean isIn(Student student) {
         return member.contains(student);
     }
 }

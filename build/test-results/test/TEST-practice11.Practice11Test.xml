@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="practice11.Practice11Test" tests="19" skipped="0" failures="1" errors="0" timestamp="2018-04-09T14:11:31" hostname="DESKTOP-Q8J7T3P" time="0.016">
+  <properties/>
+  <testcase name="should_teacher_isTeaching_return_false_when_the_student_is_not_in_all_the_classes_the_teacher_teaches" classname="practice11.Practice11Test" time="0.005"/>
+  <testcase name="should_student_have_name_age_and_class_number" classname="practice11.Practice11Test" time="0.0"/>
+  <testcase name="should_teacher_have_name_and_age_and_classes" classname="practice11.Practice11Test" time="0.0"/>
+  <testcase name="should_teacher_introduce_a_student_it_teaches" classname="practice11.Practice11Test" time="0.0"/>
+  <testcase name="should_teacher_isTeaching_return_true_when_the_student_is_in_any_classes_the_teacher_teaches" classname="practice11.Practice11Test" time="0.0"/>
+  <testcase name="should_person_have_id_name_and_age" classname="practice11.Practice11Test" time="0.0"/>
+  <testcase name="should_teacher_introduce_itself_with_which_classes_it_teaches" classname="practice11.Practice11Test" time="0.001">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;...cher. I teach Class [2, 3].'&gt; but was:&lt;...cher. I teach Class [3, 2].'&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;...cher. I teach Class [2, 3].'&gt; but was:&lt;...cher. I teach Class [3, 2].'&gt;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at practice11.Practice11Test.should_teacher_introduce_itself_with_which_classes_it_teaches(Practice11Test.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:116)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:59)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:39)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+  </testcase>
+  <testcase name="should_class_assign_a_member_student_as_leader" classname="practice11.Practice11Test" time="0.001"/>
+  <testcase name="should_teacher_introduce_itself_with_no_class_teaching" classname="practice11.Practice11Test" time="0.0"/>
+  <testcase name="should_teacher_introduce_a_student_it_does_not_teach" classname="practice11.Practice11Test" time="0.0"/>
+  <testcase name="should_teacher_be_notified_when_any_class_it_teaches_assigned_a_leader" classname="practice11.Practice11Test" time="0.001"/>
+  <testcase name="should_person_with_same_id_be_same_one" classname="practice11.Practice11Test" time="0.0"/>
+  <testcase name="should_class_get_display_name" classname="practice11.Practice11Test" time="0.0"/>
+  <testcase name="should_student_introduce_itself_as_class_leader" classname="practice11.Practice11Test" time="0.0"/>
+  <testcase name="should_person_have_an_introduce_method_which_introduce_person_with_name_and_age" classname="practice11.Practice11Test" time="0.001"/>
+  <testcase name="should_teacher_be_notified_when_student_join_any_classes_it_teaches" classname="practice11.Practice11Test" time="0.001"/>
+  <testcase name="should_class_not_assign_a_student_as_leader_when_student_is_not_a_member" classname="practice11.Practice11Test" time="0.001"/>
+  <testcase name="should_student_introduce_with_class" classname="practice11.Practice11Test" time="0.0"/>
+  <testcase name="should_class_have_a_number" classname="practice11.Practice11Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
